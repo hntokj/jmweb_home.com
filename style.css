@@ -1,18 +1,16 @@
 @charset "UTF-8";
-html{
-    width: 1240px;
-    margin:0px auto;
+.top {
+    width: 100%;
+    text-align: center; 
+    margin-top: 3%;
 }
-header{
-    width:1240px;
-}
-header img{ /*top画像*/
-    width: 1240px;
-    margin:20px auto;
+header .top img{ /*top画像*/
+    width: 95%;
     border-bottom: 20px double black;
 }
 body{
     background-image: url("https://github.com/hntokj/jmweb_home.com/blob/main/web-bg.jpg?raw=true");
+    background-size: contain;
     width:100%;
 }
 
@@ -22,24 +20,25 @@ body{
 article ul li a{
     background-color:rgba(255, 0, 0, 0.7);
     display:block;
-    padding:30px 0px;
+    padding:20px;
     font-size: 20px;
 }
 article ul{
-    width: 320px;
+    width: 70%;
     margin: 20px auto;
     text-align: center; 
 }
 article ul li{/*ボタンの間*/
-    margin-bottom:20px;
+    margin-bottom:15px;
 }
 article ul li a:hover{
 text-decoration: underline double;
 }
 article nav{
-    width:620px;
+    width:70%;
     background-image: url("https://github.com/hntokj/jmweb_home.com/blob/main/web_top%E3%81%BB%E3%82%99%E3%81%8B%E3%81%97.png?raw=true"); 
     background-size: contain;
+    background-size: 100%;
     margin: 40px auto;
     padding:10px 0px;
 }
@@ -50,10 +49,11 @@ main{
 }
 main section h4{
     font-size: 36px;
+    font-weight: 800;
     text-align: center;
 }
 main section nav{/*かこい*/
-    width: 940px;
+    width: 100%;
     background-color: aliceblue;
     margin: 10px auto;
 }
@@ -77,3 +77,8 @@ main section nav img{
 h4{
     color: white;
 }
+
+.anim-box {
+    background: linear-gradient(to right, #362ae0 0%,#3b79cc 50%,#42d3ed 100%);
+  }
+ 
